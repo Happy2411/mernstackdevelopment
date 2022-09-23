@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+<style>
+    .card{
+        border: 2px solid black;
+        width: 30%;
+        background-color: rgb(208, 177, 177);
+        padding: 30px;
+        margin: 10px;
+        box-shadow: inset 2px 3px 4px 5px snow;
+        box-sizing: border-box;
+
+    }
+    .myinput,.mybtn{
+        margin-top: 8px;
+        border-bottom: 2px solid green;
+        border-radius: 4px;
+        box-sizing: border-box;
+        width:100%;
+            padding: 10px;
+            box-sizing:border-box;
+            margin-bottom: 20px;
+            
+    }
+    .mybtn{
+        border-bottom: 0px solid red;
+            background-color: crimson;
+            font-size:15px;
+            color: white;
+            transition-duration: 0.3s;
+            width: 20%
+
+        }
+        .mybtn:hover{
+            /* transform:scaleX(1.2) ; */
+            transform:translateY(-10px);
+            box-shadow:0px 5px 10px -1px #00000082;
+        }
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background-image: url(https://image.shutterstock.com/image-illustration/internet-security-closed-pad-lock-260nw-515395867.jpg);
+        }
+    h2{
+        text-align:center;
+        margin-block-start: auto;
+        text-transform: uppercase;
+        text-shadow:cadetblue ;
+    }
+    .sign{
+        float:right;
+        
+    
+    }
+</style>
+<body>
+    <div class="card">
+        <h2>Login Here</h2>
+    <form>
+        <label for="Name">Name</label>
+        <input type="text" class="myinput">
+        <label for="Email">Email</label>
+        <input type="email" class="myinput">
+        <label for="password">Password</label>
+        <input type="password" class="myinput">
+        <button class="mybtn">Submit</button>
+        <button class="mybtn" class="sign" style="margin-left: 250px;">sign Up</button>
+    </form>
+    </div>
+    
+</body>
+</html>

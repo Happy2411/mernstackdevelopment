@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+    <style>
+   .card{
+    border: 2px solid red;
+    width: 25%;
+    /* margin: 200px auto; */
+   } 
+   body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0;
+
+   }    
+
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+    <h1> Register here to continue</h1>
+    <form >
+        <label>Name</label>
+        <input placeholder="enter name">
+        <br>
+        <label>Email</label>
+        <input placeholder="enter email">
+        <br>
+        <label>gender</label>
+        <input name="gender" type="radio">male
+        <input type="radio" name="gender">Female
+        <br><br>
+        <label>select city</label>
+         <select>
+            <option> lucknow</option>
+            <option>Delhi</option>
+            <option>Jammu</option>
+         </select>
+         <br><br>
+         <label >State</label>
+         <input placeholder="enter state" list="state">
+         <datalist id="state">
+            <option>Up</option>
+            <option>delhi</option>
+            <option>jk</option>
+         </datalist>
+         <br><br>
+         <input type="checkbox">I accept conditions
+         <br>
+         <button>Submit</button>
+
+         <input placeholder="enter name">
+    </form>
+    </div>
+    
+</body>
+</html>

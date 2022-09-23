@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+
+    <style>
+      .mycard {
+        border: 1px solid red;
+        width: 30%;
+        /* margin: 200px auto; */
+      }
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mycard">
+      <h1>Register Here to Continue</h1>
+      <hr />
+
+      <form>
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your Name" />
+        <br />
+        <br />
+        <label>Email Address</label>
+        <input type="text" placeholder="Enter your Name" />
+        <br />
+        <br />
+        <label>Gender : </label>
+        <input type="radio" name="gender" /> Male <input type="radio" name="gender" /> Female
+        <br />
+        <br />
+        <label>Password</label>
+        <input type="password" />
+        <br /><br />
+
+        <label>City</label>
+        <input list="city" />
+        <datalist id="city">
+          <option>Lucknow</option>
+          <option>Allahabad</option>
+          <option>Azamgarh</option>
+          <option>Ayodhya</option>
+          <option>Mirzapur</option>
+        </datalist>
+        <br /><br />
+
+        <label>Country</label>
+        <select>
+          <option>Select Country</option>
+          <option>India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Australia</option>
+          <option>Canada</option>
+        </select>
+
+        <input type="checkbox" /> I Accept Terms and Conditions <br /><br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>

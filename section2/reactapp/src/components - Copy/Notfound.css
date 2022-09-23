@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Gilda+Display);
+
+.main {
+  background-color:black;
+  color: white;
+  overflow: hidden;
+  height: 100vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+		  font-size: medium;
+}
